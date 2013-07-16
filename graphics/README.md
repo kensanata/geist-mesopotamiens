@@ -1,6 +1,7 @@
 The two images by [Erik York](http://tillinghast23.deviantart.com/)
-are used with permission for "Der Geist Mesopotamiens" as long as it's
-*used for non-commercial purposes* and with credit provided.
+are used with permission for "Der Geist Mesopotamiens" as long as they
+are *used for non-commercial purposes* and with a link to the author's
+Deviant Art address provided.
 
 Sources:
 
