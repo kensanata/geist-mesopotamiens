@@ -1,23 +1,21 @@
 \documentclass{tufte-handout}
+
 % \geometry{showframe}% for debugging purposes -- displays the margins
-\usepackage{wasysym}
+\hypersetup{colorlinks} % colored links
+
+\usepackage{wasysym} % for \Square
 \usepackage[utf8]{inputenc}
-\usepackage[english,ngerman]{babel}
+\usepackage[ngerman]{babel}
 
 \renewcommand{\labelitemi}{$-$} % use dash for items
-
-% Set up the images/graphics package
-% \usepackage{graphicx}
-% \setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
-% \graphicspath{{graphics/}}
-
-\title{Der Geist Mesopotamiens}
-\author{Alex Schroeder}
 
 % Set up the images/graphics package
 \usepackage{graphicx}
 \setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
 \graphicspath{{graphics/}}
+
+\title{Der Geist Mesopotamiens}
+\author{Alex Schroeder}
 
 % The following package makes prettier tables. We're all about the
 % bling!
@@ -104,16 +102,19 @@ Jeder Charakter eine Fertigkeit mit Wert 4, zwei Fertigkeiten mit Wert
 3, drei Fertigkeiten mit Wert 2 und vier Fertigkeiten mit Wert 1. Alle
 anderen Fertigkeiten werden mit Wert 0 verwendet.
 
-% Textblock width 6½ in
-\begin{fullwidth}
+\clearpage
+
+\begin{marginfigure}
+\includegraphics{pazuzu_dagger_by_tillinghast23-d392ool.jpg}
+\end{marginfigure}
+
 \begin{tabular}{ll}
 \multicolumn{2}{c}{Grundwerte}                                          \\
-\midrule
 Athletik         & verbessert den Zähler für Gesundheit                 \\
 Entschlossenheit & verbessert den Zähler für Fassung                    \\
 Mittel           & verbessert den Zähler für Vermögen                   \\
+\midrule[0pt]
 \multicolumn{2}{c}{Kämpfen}                                             \\
-\midrule
 Akrobatik        & Ausweichen, Bewegung auf dem Schlachtfeld            \\
 Bogen            & Fernkampf                                            \\
 Kurzschwert      & Nahkampf                                             \\
@@ -124,8 +125,8 @@ Schleuder        & Fernkampf                                            \\
 Speer            & Nahkampf                                             \\
 Speerwurf        & Fernkampf                                            \\
 Streitwagen      & nieder fahren, Phalanx durchbrechen                  \\
+\midrule[0pt]
 \multicolumn{2}{c}{Zur Person}                                          \\
-\midrule
 Muse             & Singen, Instrumente spielen, Steinmetz, Töpfern      \\
 Handeln          & Verhandeln, Geld verdienen                           \\
 Rhetorik         & Leute überzeugen, Diplomatie                         \\
@@ -137,7 +138,6 @@ Alchemie         & Gift, Heilmittel, Blei zu Gold, griechisches Feuer   \\
 Steuermann       & Kurs finden, Strömungen erkennen                     \\
 Schiffsbau       & Löcher ausbessern, neue Schiffe bauen, Mast erneuern \\
 \end{tabular}
-\end{fullwidth}
 
 \bigskip
 \noindent Normalerweise ist es kein Problem, wenn Spieler weitere
@@ -278,7 +278,7 @@ Segen ihm hilft. Er zahlt den letzten Schicksalspunkt und würfelt -3!
 Pech gehabt. Der Spieler beschliesst, den freien Aspekt ``verwirrt''
 zu verwenden und würfelt -1, addiert Ringen 4, und verwendet den
 zweiten freien Aspekt ``im Würgegriff'' für +2, gibt 5. Gleichstand!
-Ein temporärer Aspekt ist für den angreifenden Stier enstanden:
+Ein temporärer Aspekt ist für den angreifenden Stier entstanden:
 Herakles ist \emph{niedergeworfen}.
 
 \textbf{Zweite Runde}: Herakles greift an und würfelt 0, addiert
@@ -367,15 +367,28 @@ wieder frei. Nur die Konsequenzen bleiben.
   Zähler dieses mal kein einziges Kästchen verloren hat
 \end{itemize}
 
-\vspace{3cm}
+\section{Lesematerial}
 
-\begin{fullwidth}
-\centering
-\includegraphics[height=10cm]{pazuzu_dagger_by_tillinghast23-d392ool.jpg}
-\end{fullwidth}
+Die historischen Romane von
+\href{http://de.wikipedia.org/wiki/Gisbert_Haefs}{Gisbert Haefs} wie
+\textit{Troja}, \emph{Alexander} und \emph{Hannibal} geben einen
+wunderbaren Einblick in die Antike.
+
+Online findet man immer wieder historische Karten, so zum Beispiel den
+\href{http://archive.org/details/AtlasAntiquus}{Atlas Antiquus:
+  Taschen Atlas der Alten Welt} von Dr.~Alb.~van~Kampen.
+
+Ebenfalls online, vor allem auf Englisch, oder günstig im Reclam
+Verlag zu haben: die \emph{Historien} des
+\href{http://de.wikipedia.org/wiki/Herodot}{Herodot}, die
+\emph{Anabasis} des Xenophon, und \emph{Der Peloponnesische Krieg} des
+\href{http://de.wikipedia.org/wiki/Thukydides}{Thukydides}. Auch die
+\emph{Geschichte Alexanders des Grossen} von
+\href{http://de.wikipedia.org/wiki/Quintus_Curtius_Rufus_%28Historiker%29}{Quintus
+  Curtius Rufus} und den \emph{Alexanderzug} des
+\href{http://de.wikipedia.org/wiki/Arrian}{Arrian} kann ich empfehlen.
 
 \clearpage
-
 
 \section{Lizenz: Open Game License Version 1.0a}
 
@@ -523,4 +536,5 @@ The game text without the license itself is Open Game Content.
 \end{fullwidth}
 
 \nobibliography{}
+
 \end{document}
