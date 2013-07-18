@@ -1,7 +1,7 @@
-Maps
-====
+Karten
+======
 
-The maps in this directory are from the [Atlas Antiquus: Taschen Atlas
-der Alten Welt](http://archive.org/details/AtlasAntiquus) by Dr. Alb.
-van Kampen, available from the Internet Archive. They are in the
-Public Domain.
+Die Karten in diesem Verzeichnis sind vom [Atlas Antiquus: Taschen
+Atlas der Alten Welt](http://archive.org/details/AtlasAntiquus) von
+Dr. Alb. van Kampen, vom Internet Archive. Sie sind
+[gemeinfrei](http://de.wikipedia.org/wiki/Gemeinfreiheit).
